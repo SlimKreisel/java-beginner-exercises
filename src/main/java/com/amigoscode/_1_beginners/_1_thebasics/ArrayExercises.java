@@ -1,5 +1,7 @@
 package com.amigoscode._1_beginners._1_thebasics;
 
+import java.util.Arrays;
+
 /**
  * Exercise: Arrays
  *
@@ -12,7 +14,14 @@ public class ArrayExercises {
 
         // TODO: 1 - Declare and initialize an int array called 'numbers' with 5 values
         // Hint: int[] numbers = {value1, value2, value3, value4, value5};
-
+        int [] numbers = {
+               2,
+               4,
+               5,
+               6,
+               7
+        };
+        System.out.println(Arrays.toString(numbers));
 
         // TODO: 2 - Access and print the first and last elements of the array
         // Hint: Arrays are zero-indexed. First element is numbers[0].
